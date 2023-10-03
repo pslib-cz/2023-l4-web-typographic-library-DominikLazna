@@ -1,0 +1,35 @@
+:root {
+    --blue: #3777FF;
+    --light-blue-gray: #283044;
+    --dark-blue-gray: #232939;
+    --white: #ffffff;
+    --grey: #97A5C2;
+}
+
+html {
+    font-family: 'Titillium Web', sans-serif;;
+}
+
+.button {
+    display: block;
+    width: max-content;
+    padding: .5rem 2rem;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: 50px;
+}
+
+.button:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.button--grey {
+    color: var(--grey);
+    border-color: var(--grey);
+}
+
+.button--grey:hover {
+    color: var(--white);
+    background-color: var(--grey);
+}
