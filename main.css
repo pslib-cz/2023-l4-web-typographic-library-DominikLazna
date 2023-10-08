@@ -30,6 +30,7 @@ a {
     transform-origin: right;
     transform: scaleX(1);
     transition: .15s;
+    z-index: 1;
 }
 
 .nav__list--hidden {

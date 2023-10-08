@@ -9,7 +9,15 @@
 
 .u-flex-center {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    gap: 8rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 1200px) {
+    .u-flex-center {
+        flex-direction: row;
+        align-items: flex-start;
+    }
 }
