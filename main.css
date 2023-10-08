@@ -61,5 +61,12 @@ a {
 
 .header__heading {
     font-size: 40px;
+    color: var(--grey);
     margin: 0;
+}
+
+.section-heading {
+    display: block;
+    color: var(--blue);
+    border-bottom: 1px solid var(--blue);
 }
