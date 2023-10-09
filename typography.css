@@ -126,7 +126,6 @@ h6 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem;
-    margin-bottom: 10rem;
 }
 
 .gallery__item {
@@ -166,4 +165,41 @@ h6 {
 .gallery__title {
     font-size: 28px;
     margin-bottom: 2rem;
+}
+
+/* Tables */
+table {
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: .5rem;
+    border: 2px solid var(--blue);
+}
+
+th {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+td {
+    background-color: var(--dark-blue-gray);
+}
+
+thead th:nth-child(1) {
+    width: 60%;
+}
+
+thead th:nth-child(2) {
+    width: 30%;
+}
+
+thead th:nth-child(3) {
+    width: 10%;
+}
+
+caption {
+    caption-side: bottom;
 }
