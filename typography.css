@@ -15,7 +15,8 @@ html {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: var(--blue);
+    font-weight: 300;
+    margin: 1em 0;
 }
 
 h1 {
@@ -40,6 +41,14 @@ h5 {
 
 h6 {
     font-size: 12px;
+}
+
+b {
+    font-weight: 700;
+}
+
+i {
+    font-style: italic;
 }
 
 /* Cards */
@@ -168,38 +177,23 @@ h6 {
 }
 
 /* Tables */
-table {
+.table {
+    width: 100%;
     text-align: left;
     border-collapse: collapse;
-    width: 100%;
 }
 
-td, th {
+.table__cell, .table__head-cell {
     padding: .5rem;
-    border: 2px solid var(--blue);
+    border-top: 1px solid var(--blue);
+    border-bottom: 1px solid var(--blue);
 }
 
-th {
+.table__head-cell {
     color: var(--white);
     background-color: var(--blue);
 }
 
-td {
-    background-color: var(--dark-blue-gray);
-}
-
-thead th:nth-child(1) {
-    width: 60%;
-}
-
-thead th:nth-child(2) {
-    width: 30%;
-}
-
-thead th:nth-child(3) {
-    width: 10%;
-}
-
-caption {
+.table__caption {
     caption-side: bottom;
 }

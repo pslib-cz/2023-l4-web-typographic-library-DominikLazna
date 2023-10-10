@@ -10,22 +10,27 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: var(--blue);
+}
+
 .nav {
+    height: 63px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    
 }
 
 .nav__list {
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 80px;
+    top: 63px;
     right: 0;
     text-align: center;
     background-color: var(--dark-blue-gray);
+    padding: 0;
     margin: 0;
     transform-origin: right;
     transform: scaleX(1);
@@ -56,7 +61,7 @@ a {
     text-align: center;
     color: var(--grey);
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 63px);
     background: linear-gradient(to bottom right, var(--blue), var(--dark-blue-gray));
 }
 
@@ -70,4 +75,32 @@ a {
     display: block;
     color: var(--blue);
     border-bottom: 1px solid var(--blue);
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav__list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: static;
+        height: auto;
+        background-color: var(--light-blue-gray);
+    }
+
+    .nav__list--hidden {
+        transform: scaleX(1);
+    }
+
+    .nav__item {
+        margin: 0;
+    }
+
+    .nav__item a {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .nav__item a:hover {
+        background-color: var(--dark-blue-gray);
+    }
 }
