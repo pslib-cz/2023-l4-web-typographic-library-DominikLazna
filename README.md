@@ -24,6 +24,48 @@ Inside the root selector you can see all of the predefined colors.
     --grey: #97A5C2;
 }
 ```
+## Text
+Document's font size is set to `16px`. There are multiple tags that you can further use to customize the text, such as `<b>`, `<i>`, `<mark>`, `<s>`.
+## Headings
+You can use headings from `<h1>` to `<h6>`. The font sizes are as follows:
+* 32px for `<h1>`
+* 28px for `<h2>`
+* 24px for `<h3>`
+* 20px for `<h4>`
+* 16px for `<h5>`
+* 21px for `<h6>`
+## Lists
+There are two types of predefined lists. If you want to you can also use `class="blue-list` like this `<ol class="blue-list">` or like this `<ul class="blue-list">` to give the list a little more style.
+### Ordered list
+You can create ordered list using the `<ol>` tag.
+```html
+<ol>
+    <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3
+            <ol>
+                <li>Sub-item 1</li>
+                <li>Sub-item 2</li>
+            </ol>
+        </li>
+        <li>Item 4</li>
+</ol>
+```
+### Unordered list
+You can create unordered list using the `<ul>` tag.
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3
+        <ul>
+            <li>Sub-item 1</li>
+            <li>Sub-item 2</li>
+        </ul>
+    </li>
+    <li>Item 4</li>
+</ul>
+```
 ## Components
 ### First
 ### Second
