@@ -68,7 +68,7 @@ You can create unordered list using the `<ul>` tag.
 ```
 ## Components
 ### Cards
-Cards are used for creating independent content with image and text. There are two types of cards.
+Cards are used for creating independent content with image and text. There are two types of cards.  
 *See syntax below:*
 ```html
 <figure class="card">
@@ -92,5 +92,65 @@ Cards are used for creating independent content with image and text. There are t
     </figcaption>
 </figure>
 ```
-### First
-### Second
+### Buttons
+To create a button add `class="btn"` to `<a>` tag. You can also use `class="btn btn--slashed"` for skewed button.
+### Grid Gallery
+If you want to create a gallery, you can use the predefined grid gallery using the syntax below:
+```html
+<div class="gallery">
+    <a href="./imgs/moon.webp">
+        <figure class="gallery__item">
+            <img class="gallery__img" src="./imgs/moon.webp" alt="View on the moon">
+            <figcaption class="gallery__caption"><p class="gallery__title">Moon</p></figcaption>
+        </figure>
+    </a>
+    <a href="./imgs/city.webp">
+        <figure class="gallery__item">
+            <img class="gallery__img" src="./imgs/city.webp" alt="View on city">
+            <figcaption class="gallery__caption"><p class="gallery__title">City</p></figcaption>
+        </figure>
+    </a>
+    <a href="./imgs/ocean.webp">
+        <figure class="gallery__item">
+            <img class="gallery__img" src="./imgs/ocean.webp" alt="View on vast ocean">
+            <figcaption class="gallery__caption"><p class="gallery__title">Ocean</p></figcaption>
+        </figure>
+    </a>
+</div>
+```
+### Tables
+To create a table use the `<table>` tag. For further styled table use `class="table__cell"` on `<td>` tags and `class="table__head-cell"` on `<th>` tags.
+```html
+<table>
+    <caption class="table__caption">Example of table</caption>
+    <thead>
+        <tr>
+            <th class="table__head-cell">Games</th>
+            <th class="table__head-cell">Company</th>
+            <th class="table__head-cell">Copies sold</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="table__cell">Cyberpunk 2077</td>
+            <td class="table__cell">CD Projekt Red</td>
+            <td class="table__cell">25 mil</td>
+        </tr>
+        <tr>
+            <td class="table__cell">Mass Effect 2</td>
+            <td class="table__cell">BioWare</td>
+            <td class="table__cell">5 mil</td>
+        </tr>
+        <tr>
+            <td class="table__cell">Red Dead Redemption 2</td>
+            <td class="table__cell">Rockstar Games</td>
+            <td class="table__cell">55 mil</td>
+        </tr>
+        <tr>
+            <td class="table__cell">Halo 2</td>
+            <td class="table__cell">Bungie</td>
+            <td class="table__cell">8 mil</td>
+        </tr>
+    </tbody>
+</table>
+```
