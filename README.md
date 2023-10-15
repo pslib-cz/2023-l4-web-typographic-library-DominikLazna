@@ -35,20 +35,20 @@ You can use headings from `<h1>` to `<h6>`. The font sizes are as follows:
 * 16px for `<h5>`
 * 21px for `<h6>`
 ## Lists
-There are two types of predefined lists. If you want to you can also use `class="blue-list` like this `<ol class="blue-list">` or like this `<ul class="blue-list">` to give the list a little more style.
+There are two types of predefined lists. If you want to, you can also use `class="list-blue"` like this `<ol class="list-blue">` or like this `<ul class="list-blue">` to give the list a little more style.
 ### Ordered list
 You can create ordered list using the `<ol>` tag.
 ```html
 <ol>
     <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3
-            <ol>
-                <li>Sub-item 1</li>
-                <li>Sub-item 2</li>
-            </ol>
-        </li>
-        <li>Item 4</li>
+    <li>Item 2</li>
+    <li>Item 3
+        <ol>
+            <li>Sub-item 1</li>
+            <li>Sub-item 2</li>
+        </ol>
+    </li>
+    <li>Item 4</li>
 </ol>
 ```
 ### Unordered list
@@ -67,5 +67,30 @@ You can create unordered list using the `<ul>` tag.
 </ul>
 ```
 ## Components
+### Cards
+Cards are used for creating independent content with image and text. There are two types of cards.
+*See syntax below:*
+```html
+<figure class="card">
+    <img class="card__img" src="./imgs/cyberpunk.webp" alt="View of cyberpunk city">
+    <figcaption class="card__caption">
+        <h3 class="card__heading">Cyberpunk City</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nemo est dolore libero nulla, numquam distinctio repellendus fugiat iste quae accusamus, saepe suscipit. In minus labore, veritatis                   apiente cum illo
+        </p>
+    </figcaption>
+</figure>
+```
+```html
+<figure class="card">
+    <img class="card__img card__img--slashed" src="./imgs/cyberpunk.webp" alt="View of cyberpunk city">
+    <figcaption class="card__caption">
+        <h3 class="card__heading card__heading--slashed">Cyberpunk City</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nemo est dolore libero nulla, numquam distinctio repellendus fugiat iste quae accusamus, saepe suscipit. In minus labore, veritatis                   sapiente cum illo.
+        </p>
+    </figcaption>
+</figure>
+```
 ### First
 ### Second
