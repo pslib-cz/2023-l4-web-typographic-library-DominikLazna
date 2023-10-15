@@ -2,21 +2,21 @@
 # Typography CSS library
 **Author:** [*Dominik Lazna*](https://github.com/DominikLazna)
 ## Demo site
-Link to **[demo](http://www.github.io)** site for preview.
+Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-DominikLazna/)** site for preview.
 ## Content
 1. [Implemantation](#Implementation)
 2. [Fonts](#Fonts)
 3. [Colors](#Colors)
 4. [Text](#Text)
 5. [Headings](#Headings)
-6. [Lists](#Lists)
-       6.1. [Ordered list](#Ordered-list)
-       6.2. [Unordered list](#Unordered-list)
-7. [Components](#Components)
-       7.1. [Cards](#Cards)
-       7.2. [Buttons](#Buttons)
-       7.3. [Grid gallery](#Grid-gallery)
-       7.4. [Tables](#Tables)
+6. [Lists](#Lists)  
+       6.1. [Ordered list](#Ordered-list)  
+       6.2. [Unordered list](#Unordered-list)  
+7. [Components](#Components)  
+       7.1. [Cards](#Cards)  
+       7.2. [Buttons](#Buttons)  
+       7.3. [Grid gallery](#Grid-gallery)  
+       7.4. [Tables](#Tables)  
 ## Implementation
 1. Download [Typography.css](css/typography.css)
 2. Copy CSS file into your project
@@ -27,7 +27,7 @@ Link to **[demo](http://www.github.io)** site for preview.
 ## Fonts
 Typography.css is using [Titilium Web](https://fonts.google.com/specimen/Titillium+Web?query=titil) for its font. If you want to use different one, simply remove the predefined one from the file and paste yours.
 ## Colors
-Inside the root selector you can see all of the predefined colors.
+Inside the `:root` selector you can see all of the predefined colors.
 ```html
 :root {
     --blue: #3877ff;
