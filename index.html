@@ -15,10 +15,11 @@
 <body>
     <header>
         <nav class="nav u-center-padding">
-            <a class="nav__name" href="#">Typography.CSS</a>
+            <a class="title" href="#">Typography.CSS</a>
             <menu class="nav__list nav__list--hidden">
                 <li class="nav__item"><a href="#text">Text</a></li>
                 <li class="nav__item"><a href="#headings">Headings</a></li>
+                <li class="nav__item"><a href="#lists">Lists</a></li>
                 <li class="nav__item"><a href="#cards">Cards</a></li>
                 <li class="nav__item"><a href="#buttons">Buttons</a></li>
                 <li class="nav__item"><a href="#grid-gallery">Grid Gallery</a></li>
@@ -39,9 +40,9 @@
         </section>
     </header>
     <section class="u-center-padding">
-        <h2 id="text" class="section-heading">Types of text</h2>
+        <h2 id="text" class="section-heading">Text</h2>
         <p>This is regular paragraph, it's created using the &lt;p&gt; tag. In the paragraph below you can see different types of text.</p>
-        <p>This text is <b>bold</b>. This text is <i>italic</i>. This text is <mark>marked</mark> and this text is <strike>striked</strike>.</p>
+        <p>This text is <b>bold</b>. This text is <i>italic</i>. This text is <mark>marked</mark> and this text is <s>striked</s>.</p>
     </section>
     <section id="headings" class="u-center-padding">
         <h2 class="section-heading">Headings</h2>
@@ -51,6 +52,33 @@
         <h4>Heading h4</h4>
         <h5>Heading h5</h5>
         <h6>Heading h6</h6>
+    </section>
+    <section id="lists" class="u-center-padding">
+        <h2 class="section-heading">Lists</h2>
+        <h3>Ordered list</h3>
+        <ol class="list-blue">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3
+                <ol>
+                    <li>Sub-item 1</li>
+                    <li>Sub-item 2</li>
+                </ol>
+            </li>
+            <li>Item 4</li>
+        </ol>
+        <h3>Unordered list</h3>
+        <ul class="list-blue">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3
+                <ul>
+                    <li>Sub-item 1</li>
+                    <li>Sub-item 2</li>
+                </ul>
+            </li>
+            <li>Item 4</li>
+        </ul>
     </section>
     <section id="cards" class="u-center-padding">
         <h2 class="section-heading">Cards</h2>
@@ -81,30 +109,42 @@
     <section id="grid-gallery" class="u-center-padding">
         <h2 class="section-heading">Grid Gallery</h2>
         <div class="gallery">
-            <figure class="gallery__item">
-                <img class="gallery__img" src="./imgs/moon.webp" alt="View on the moon">
-                <figcaption class="gallery__caption"><p class="gallery__title">Moon</p></figcaption>
-            </figure>
-            <figure class="gallery__item">
-                <img class="gallery__img" src="./imgs/city.webp" alt="View on city">
-                <figcaption class="gallery__caption"><p class="gallery__title">City</p></figcaption>
-            </figure>
-            <figure class="gallery__item">
-                <img class="gallery__img" src="./imgs/ocean.webp" alt="View on vast ocean">
-                <figcaption class="gallery__caption"><p class="gallery__title">Ocean</p></figcaption>
-            </figure>
-            <figure class="gallery__item">
-                <img class="gallery__img" src="./imgs/cottage.webp" alt="Cottage in the middle of forrest">
-                <figcaption class="gallery__caption"><p class="gallery__title">Cottage</p></figcaption>
-            </figure>
-            <figure class="gallery__item">
-                <img class="gallery__img" src="./imgs/80s.webp" alt="80s graphic with city and sundown">
-                <figcaption class="gallery__caption"><p class="gallery__title">80s</p></figcaption>
-            </figure>
-            <figure class="gallery__item">
-                <img class="gallery__img" src="./imgs/thunder.webp" alt="Thunder in the sky">
-                <figcaption class="gallery__caption"><p class="gallery__title">Thunder</p></figcaption>
-            </figure>
+            <a href="./imgs/moon.webp">
+                <figure class="gallery__item">
+                    <img class="gallery__img" src="./imgs/moon.webp" alt="View on the moon">
+                    <figcaption class="gallery__caption"><p class="gallery__title">Moon</p></figcaption>
+                </figure>
+            </a>
+            <a href="./imgs/city.webp">
+                <figure class="gallery__item">
+                    <img class="gallery__img" src="./imgs/city.webp" alt="View on city">
+                    <figcaption class="gallery__caption"><p class="gallery__title">City</p></figcaption>
+                </figure>
+            </a>
+            <a href="./imgs/ocean.webp">
+                <figure class="gallery__item">
+                    <img class="gallery__img" src="./imgs/ocean.webp" alt="View on vast ocean">
+                    <figcaption class="gallery__caption"><p class="gallery__title">Ocean</p></figcaption>
+                </figure>
+            </a>
+            <a href="./imgs/cottage.webp">
+                <figure class="gallery__item">
+                    <img class="gallery__img" src="./imgs/cottage.webp" alt="Cottage in the middle of forrest">
+                    <figcaption class="gallery__caption"><p class="gallery__title">Cottage</p></figcaption>
+                </figure>
+            </a>
+            <a href="./imgs/80s.webp">
+                <figure class="gallery__item">
+                    <img class="gallery__img" src="./imgs/80s.webp" alt="80s graphic with city and sundown">
+                    <figcaption class="gallery__caption"><p class="gallery__title">80s</p></figcaption>
+                </figure>
+            </a>
+            <a href="./imgs/thunder.webp">
+                <figure class="gallery__item">
+                    <img class="gallery__img" src="./imgs/thunder.webp" alt="Thunder in the sky">
+                    <figcaption class="gallery__caption"><p class="gallery__title">Thunder</p></figcaption>
+                </figure>
+            </a>
         </div>
     </section>
     <section id="tables" class="u-center-padding">
@@ -142,6 +182,10 @@
             </tbody>
         </table>
     </section>
+    <footer class="footer u-center-padding">
+        <a class="title" href="#">Typography.CSS</a>
+        <p>Created by Dominik Lazna</p>
+    </footer>
     <script src="hamburger.js"></script>
 </body>
 </html>

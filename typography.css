@@ -51,6 +51,10 @@ i {
     font-style: italic;
 }
 
+mark {
+    background-color: var(--blue);
+}
+
 /* Cards */
 .card {
     max-width: 350px;
@@ -177,14 +181,22 @@ i {
 }
 
 /* Tables */
-.table {
+table {
     width: 100%;
     text-align: left;
     border-collapse: collapse;
 }
 
-.table__cell, .table__head-cell {
+th, td {
     padding: .5rem;
+}
+
+caption {
+    caption-side: bottom;
+    margin-top: .5rem;
+}
+
+.table__cell, .table__head-cell {
     border-top: 1px solid var(--blue);
     border-bottom: 1px solid var(--blue);
 }
@@ -194,6 +206,25 @@ i {
     background-color: var(--blue);
 }
 
-.table__caption {
-    caption-side: bottom;
+/* Lists */
+ol {
+    counter-reset: item;
+}
+
+ol li {
+    display: block;
+}
+
+ol li:before { 
+    content: counters(item, ".") ".";
+    counter-increment: item;
+    margin-right: .5em;
+}
+
+.list-blue li:before {
+    color: var(--blue);
+}
+
+.list-blue li::marker {
+    color: var(--blue);
 }
