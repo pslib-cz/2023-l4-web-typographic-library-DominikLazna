@@ -3,6 +3,20 @@
 **Author:** [*Dominik Lazna*](https://github.com/DominikLazna)
 ## Demo site
 Link to **[demo](http://www.github.io)** site for preview.
+## Content
+1. [Implemantation](#Implementation)
+2. [Fonts](#Fonts)
+3. [Colors](#Colors)
+4. [Text](#Text)
+5. [Headings](#Headings)
+6. [Lists](#Lists)
+       6.1. [Ordered list](#Ordered-list)
+       6.2. [Unordered list](#Unordered-list)
+7. [Components](#Components)
+       7.1. [Cards](#Cards)
+       7.2. [Buttons](#Buttons)
+       7.3. [Grid gallery](#Grid-gallery)
+       7.4. [Tables](#Tables)
 ## Implementation
 1. Download [Typography.css](css/typography.css)
 2. Copy CSS file into your project
@@ -94,7 +108,7 @@ Cards are used for creating independent content with image and text. There are t
 ```
 ### Buttons
 To create a button add `class="btn"` to `<a>` tag. You can also use `class="btn btn--slashed"` for skewed button.
-### Grid Gallery
+### Grid gallery
 If you want to create a gallery, you can use the predefined grid gallery using the syntax below:
 ```html
 <div class="gallery">
