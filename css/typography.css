@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
 :root {
     --blue: #3877ff;
-    --blue-opacity: rgb(55, 119, 255, .5);
+    --blue-opacity: rgba(55, 119, 255, .5);
     --light-blue-gray: #283044;
     --dark-blue-gray: #232939;
     --white: #ffffff;
