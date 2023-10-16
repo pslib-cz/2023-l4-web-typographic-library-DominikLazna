@@ -49,7 +49,7 @@ You can use headings from `<h1>` to `<h6>`. The font sizes are as follows:
 * 24px for `<h3>`
 * 20px for `<h4>`
 * 16px for `<h5>`
-* 21px for `<h6>`
+* 12px for `<h6>`
 ## Lists
 There are two types of predefined lists. If you want to, you can also use `class="list-blue"` like this `<ol class="list-blue">` or like this `<ul class="list-blue">` to give the list a little more style.
 ### Ordered list
