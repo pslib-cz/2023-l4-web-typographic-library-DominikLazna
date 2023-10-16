@@ -3,6 +3,7 @@
 body {
     margin: 0;
     background-color: var(--light-blue-gray);
+    color: var(--grey);
 }
 
 a {

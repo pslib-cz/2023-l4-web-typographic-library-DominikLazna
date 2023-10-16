@@ -12,7 +12,6 @@
 html {
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
-    color: var(--grey);
 }
 
 /* Headings */
@@ -45,6 +44,7 @@ h6 {
     font-size: 12px;
 }
 
+/* Types of text */
 b {
     font-weight: 700;
 }
@@ -100,6 +100,7 @@ mark {
     margin: 0;
 }
 
+/* Buttons */
 .btn {
     display: block;
     position: relative;
@@ -137,6 +138,7 @@ mark {
     clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
 }
 
+/* Grid gallery */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
