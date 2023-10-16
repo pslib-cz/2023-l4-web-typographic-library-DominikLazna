@@ -2,7 +2,7 @@
 # Typography CSS library
 **Author:** [*Dominik Lazna*](https://github.com/DominikLazna)
 ## Description
-Typographic.css is a free typographic library created as a school project. It creates default styles for your text, headings and lists. Typographic.css also contains multiple predefined components such as cards, buttons, grid gallery and tables.
+Typography.css is a free typography library created as a school project. It creates default styles for your text, headings and lists. Typographic.css also contains multiple predefined components such as cards, buttons, grid gallery and tables.
 ## Demo site
 Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-DominikLazna/)** site for preview.
 ## Content
