@@ -1,6 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/zprwltzm)
 # Typography CSS library
 **Author:** [*Dominik Lazna*](https://github.com/DominikLazna)
+## Description
+Typographic.css is a free typographic library created as a school project. It creates default styles for your text, headings and lists. Typographic.css also contains multiple predefined components such as cards, buttons, grid gallery and tables.
 ## Demo site
 Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-DominikLazna/)** site for preview.
 ## Content
