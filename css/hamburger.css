@@ -4,13 +4,48 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: stretch;
-    z-index: 1;
+    position: relative;
+    z-index: 2;
 }
 
 .hamburger__line {
-    background-color: var(--grey);
+    position: absolute;
+    width: 100%;
     height: 4px;
+    background-color: var(--grey);
+}
+
+.hamburger__line:nth-child(1) {
+    top: 0px;
+    transition: .5s;
+}
+
+.hamburger__line:nth-child(2) {
+    top: 10px;
+    opacity: 1;
+    transition: .75s;
+}
+
+.hamburger__line:nth-child(3) {
+    top: 20px;
+    transition: .5s;
+}
+
+.hamburger--active .hamburger__line:nth-child(1) {
+    top: 10px;
+    transform: rotate(45deg);
+    transition: .5s;
+}
+
+.hamburger--active .hamburger__line:nth-child(2) {
+    width: 0;
+    transition: .25s;
+}
+
+.hamburger--active .hamburger__line:nth-child(3) {
+    top: 10px;
+    transform: rotate(-45deg);
+    transition: .5s;
 }
 
 @media only screen and (min-width: 1200px) {

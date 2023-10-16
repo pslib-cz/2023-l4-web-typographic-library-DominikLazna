@@ -5,4 +5,5 @@ hamburgerEl.addEventListener("click", toggleNav);
 
 function toggleNav() {
     navListEl.classList.toggle("nav__list--hidden");
+    hamburgerEl.classList.toggle("hamburger--active");
 }
