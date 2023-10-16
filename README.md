@@ -101,13 +101,19 @@ Cards are used for creating independent content with image and text. There are t
     <figcaption class="card__caption">
         <h3 class="card__heading card__heading--slashed">Cyberpunk City</h3>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nemo est dolore libero nulla, numquam distinctio repellendus fugiat iste quae accusamus, saepe suscipit. In minus labore, veritatis                   sapiente cum illo.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nemo est dolore libero nulla, numquam distinctio repellendus fugiat iste quae accusamus, saepe suscipit. In minus labore, veritatis sapiente cum illo.
         </p>
     </figcaption>
 </figure>
 ```
 ### Buttons
 To create a button add `class="btn"` to `<a>` tag. You can also use `class="btn btn--slashed"` for skewed button.
+```html
+<a class="btn" href="#">Button</a>
+```
+```html
+<a class="btn btn--slashed" href="#">Button</a>
+```
 ### Grid gallery
 If you want to create a gallery, you can use the predefined grid gallery using the syntax below:
 ```html
