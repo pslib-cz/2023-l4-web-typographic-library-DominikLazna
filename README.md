@@ -1,6 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/zprwltzm)
 # Typography CSS library
 **Author:** [*Dominik Lazna*](https://github.com/DominikLazna)
+## Description
+Typographic.css is a free typographic library created as a school project. It creates default styles for your text, headings and lists. Typographic.css also contains multiple predefined components such as cards, buttons, grid gallery and tables.
 ## Demo site
 Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-DominikLazna/)** site for preview.
 ## Content
@@ -47,7 +49,7 @@ You can use headings from `<h1>` to `<h6>`. The font sizes are as follows:
 * 24px for `<h3>`
 * 20px for `<h4>`
 * 16px for `<h5>`
-* 21px for `<h6>`
+* 12px for `<h6>`
 ## Lists
 There are two types of predefined lists. If you want to, you can also use `class="list-blue"` like this `<ol class="list-blue">` or like this `<ul class="list-blue">` to give the list a little more style.
 ### Ordered list
