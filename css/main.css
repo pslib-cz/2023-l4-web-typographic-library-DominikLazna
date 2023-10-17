@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     place-items: center;
     text-align: center;
     color: var(--grey);
-    width: 100%;
+    width: calc(100% - 10%);
     height: calc(100vh - 63px);
     background: linear-gradient(to bottom right, var(--blue), var(--dark-blue-gray));
 }
